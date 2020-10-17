@@ -1,0 +1,14 @@
+Yield keyword is used inside methods for calling a block.
+For example:
+
+def yieldExample
+yield "Nandini Rai"
+puts "****************"
+yield "Nikita Singh"
+end
+yieldExample {|name| puts "Your name is #{name}"}
+
+O/P ---> Your name is Nandini Rai
+         ****************
+         Your name is Nikita Singh
+         
